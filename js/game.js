@@ -189,7 +189,7 @@ var update = function (modifier) {
 		&& princess.y <= (hero.y + 32)
 	) {
 
-		if(princessesCaught % 2 == 0 && princessesCaught > 0){
+		if(princessesCaught % 9 == 0 && princessesCaught > 0){
 			if(dificultad != 1)
 				dificultad = dificultad - 1;
 			nivel = nivel + 1;
